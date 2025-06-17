@@ -1,6 +1,6 @@
 function validateNumbers(...args) {
   if (!args.every(n => typeof n === 'number' && !isNaN(n))) {
-    throw new Error('All arguments must be valid numbers');
+    throw new Error('All arguments must be valid numbers pleases');
   }
 }
 
